@@ -78,6 +78,48 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Collectibles",
+        "icon": "gem",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "collectibles/overview",
+              "collectibles/collectibles-page-tour"
+            ]
+          },
+          {
+            "group": "Adding Collectibles",
+            "pages": [
+              "collectibles/upload-a-collectible"
+            ]
+          },
+          {
+            "group": "Finding Collectibles",
+            "pages": [
+              "collectibles/search-filter-and-sort",
+              "collectibles/grid-list-and-map-views"
+            ]
+          },
+          {
+            "group": "Managing Collectibles",
+            "pages": [
+              "collectibles/collectible-details",
+              "collectibles/edit-a-collectible",
+              "collectibles/export-to-pdf",
+              "collectibles/share-a-collectible",
+              "collectibles/delete-a-collectible"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "collectibles/faq"
+            ]
+          }
+        ]
       }
     ]
   }
