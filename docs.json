@@ -1,0 +1,84 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Astra IPT Learning Hub",
+  "colors": {
+    "primary": "#22A078"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Learning Hub",
+        "icon": "graduation-cap",
+        "groups": [
+          {
+            "group": "Welcome",
+            "pages": [
+              "index"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "3D Viewer",
+        "icon": "cube",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "3d-viewer/overview",
+              "3d-viewer/get-started/opening-a-model",
+              "3d-viewer/get-started/interface-tour"
+            ]
+          },
+          {
+            "group": "Navigation",
+            "pages": [
+              "3d-viewer/navigation/orbit-pan-zoom",
+              "3d-viewer/navigation/viewcube-and-home",
+              "3d-viewer/navigation/first-person",
+              "3d-viewer/navigation/camera-interactions"
+            ]
+          },
+          {
+            "group": "Model Tools",
+            "pages": [
+              "3d-viewer/tools/section-analysis",
+              "3d-viewer/tools/explode-model"
+            ]
+          },
+          {
+            "group": "Measurement",
+            "pages": [
+              "3d-viewer/measure/distance-and-angle",
+              "3d-viewer/measure/spot-coordinates",
+              "3d-viewer/measure/calibrate",
+              "3d-viewer/measure/measure-settings"
+            ]
+          },
+          {
+            "group": "Model Data",
+            "pages": [
+              "3d-viewer/model-data/model-browser",
+              "3d-viewer/model-data/properties"
+            ]
+          },
+          {
+            "group": "Display",
+            "pages": [
+              "3d-viewer/display/viewer-settings",
+              "3d-viewer/display/full-screen"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "3d-viewer/reference/keyboard-shortcuts",
+              "3d-viewer/reference/faq"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
